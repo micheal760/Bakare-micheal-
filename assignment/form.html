@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALT SCHOOL Africa Application Form</title>
+</head>
+<body>
+  <header id="top">
+    <h1>My First Assignment: ALT SCHOOL Africa Application Form</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="form.html" aria-current="page">ALT SCHOOL Application Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p><strong>Identification number:</strong> ALT/KAR/026/0827</p>
+    <section aria-labelledby="application-heading">
+      <h2 id="application-heading">Start your application</h2>
+      <p>Complete the fields below to apply. Fields marked “required” must be completed.</p>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal information</legend>
+          <p>
+            <label for="first-name">First name (required)</label><br>
+            <input type="text" id="first-name" name="first_name" autocomplete="given-name" required>
+          </p>
+          <p>
+            <label for="last-name">Last name (required)</label><br>
+            <input type="text" id="last-name" name="last_name" autocomplete="family-name" required>
+          </p>
+          <p>
+            <label for="email">Email address (required)</label><br>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </p>
+          <p>
+            <label for="phone">Phone number (required)</label><br>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+          </p>
+          <p>
+            <label for="gender">Gender</label><br>
+            <select id="gender" name="gender">
+              <option value="">Select an option</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="nonbinary">Non-binary</option>
+              <option value="prefer-not-to-say">Prefer not to say</option>
+            </select>
+          </p>
+          <p>
+            <label for="country">Country of residence (required)</label><br>
+            <input type="text" id="country" name="country" autocomplete="country-name" required>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Programme information</legend>
+          <p>
+            <label for="school">School (required)</label><br>
+            <select id="school" name="school" required>
+              <option value="">Choose a school</option>
+              <option value="engineering">School of Engineering</option>
+              <option value="product">School of Product</option>
+              <option value="data">School of Data</option>
+              <option value="business">School of Business</option>
+            </select>
+          </p>
+          <p>
+            <label for="course">Course or track (required)</label><br>
+            <input type="text" id="course" name="course" required>
+          </p>
+          <p>
+            <label for="study-mode">Preferred study mode</label><br>
+            <select id="study-mode" name="study_mode">
+              <option value="">Select an option</option>
+              <option value="full-time">Full-time</option>
+              <option value="part-time">Part-time</option>
+            </select>
+          </p>
+          <p>
+            <label for="referral">How did you hear about ALT SCHOOL Africa?</label><br>
+            <input type="text" id="referral" name="referral">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account details</legend>
+          <p>
+            <label for="password">Create a password (required)</label><br>
+            <input type="password" id="password" name="password" autocomplete="new-password" required>
+          </p>
+          <p>
+            <label for="confirm-password">Confirm password (required)</label><br>
+            <input type="password" id="confirm-password" name="confirm_password" autocomplete="new-password" required>
+          </p>
+        </fieldset>
+
+        <p>
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms">I agree to the terms and conditions (required)</label>
+        </p>
+        <button type="submit">Submit application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>Lagos, Nigeria</address>
+    <p><small>&copy; 2026 ALT SCHOOL Africa application form assignment. All rights reserved.</small></p>
+  </footer>
+</body>
+</html>
+
+
